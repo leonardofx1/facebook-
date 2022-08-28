@@ -1,0 +1,112 @@
+body {
+    background-color: #f1f2f6;
+    font-family: "open-sans" sans-serif;
+}
+
+.conteudo__principal {
+    width: 593px;
+    height: 100vh;
+    margin: 0 50px;
+    display: inline-block;
+}
+
+.post__cabecalho {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+
+.post__link {
+    color: black;
+    text-decoration: none;
+}
+
+.data__publicacao {
+    color:#858995;
+    margin: 2px;
+   
+}
+
+.post__corpo {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.post__perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    float: left;
+    margin: 5px;
+}
+
+.icon__mundo {
+    width: 15px;
+    height: 15px;
+}
+
+.post__pontos {
+    position: absolute;
+    top:15px;
+    right: 15px;
+    color:#65686d;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.texto {
+    margin: 1rem ;
+}
+
+.conteudo img {
+    width: 100%;
+    height: auto;
+}
+
+.interacao__contagem {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    text-align: right;
+    background-color: #ffffff;
+}
+
+.interacao__contagem a {
+    margin: .5em;
+   color: #727f8f;
+   font-weight: 500;
+   text-decoration: none;
+}
+
+.interacao__contagem::after, .interacao::after{
+    content: "";
+    display: block;
+    width: 98%;
+    height: 2px;
+    margin: 5px 0;
+    background-color:#d0d0d2;
+}
+
+.interacao {
+    width: 100%;
+    height: 50px;
+}
+
+.interacao button {
+    width: calc(95% / 3);
+    margin: 0;
+    color: #666670;
+    font-weight: 600;
+    border: none;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+
+
+.interacao button:hover{
+    cursor: pointer;
+}
