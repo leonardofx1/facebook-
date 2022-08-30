@@ -6,6 +6,9 @@
     flex-direction: column;
     overflow-y: scroll;
     float: left;
+    position: fixed;
+    top: 60px;
+    left: 0;
 }
 
 .foto {
@@ -21,6 +24,7 @@
     text-decoration: none;
     color: #303231;
     transition: 80ms ease-in;
+   
 }
 
 .aside__link:hover{

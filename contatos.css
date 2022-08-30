@@ -6,11 +6,84 @@
     flex-direction: column;
     overflow-y: scroll;
     float: right;
-    
+    position:fixed;
+    top:60px;
+    right:0
 }
 
-.foto__amigos {
+.contatos__lista {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color:#66676b;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.contatos__icon {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.contato__icon {
     width: 20px;
     height: 20px;
+    margin-right: .5rem;
+}
+
+.pontos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    width: 30px;
+    height: 30px;
+
+}
+
+.ponto {
+    color:#65686d;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+
+
+.pontos:hover {
+    background-color: #e5e6eb;
+   cursor: pointer;
+}
+
+
+
+.foto__amigos {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
     border-radius: 15px;
+}
+
+.lista__amigos {
+    width: 100%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    margin: 1em 0;
+    text-decoration: none;
+    color: #303231;
+    transition: 80ms ease-in;
+}
+
+.lista__amigos:hover{
+    background-color: #e5e6eb;
+    border-radius: 5px;
 }

@@ -3,18 +3,18 @@ body {
     font-family: "open-sans" sans-serif;
 }
 
-.conteudo__principal {
+main {
     width: 593px;
-    height: 100vh;
-    margin: 0 50px;
-    display: inline-block;
+    height: calc(100vh - 60px);
+    margin: 60px auto 0 auto;
+    z-index: 1;
 }
 
 .post__cabecalho {
     width: 100%;
     height: auto;
     position: relative;
-
+   
 }
 
 .post__link {
