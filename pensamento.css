@@ -1,0 +1,71 @@
+.pensamento {
+    width: 100%;
+    background-color:#ffffff;
+    display: grid;
+    grid-template-columns: 40px 1fr 1fr;
+    grid-template-rows: 61px 61px;
+    padding: 1rem;
+    border:2px solid #e4e5e7;
+    margin:1rem 0 1rem 0;
+}
+
+.pensamento__perfil {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    grid-column: 1;
+}
+
+.pensamento__input {
+    grid-column: 2/4;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color:#f1f2f6;
+    margin-left: 1rem;
+    font-size:1.1rem;
+    font-weight:normal;
+}
+
+.pensamento__video {
+    grid-column: 2/3;
+    grid-row: 2/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pensamento__foto {
+    grid-column: 3/4;
+    grid-row:2/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pensamento__foto, .pensamento__video {
+    border-top: 2px solid #e4e5e7;
+    text-decoration: none;
+    color:#647589;
+    font-size:1.2rem;
+    padding: .5rem;
+}
+
+.pensamento__foto::before{
+    content: "";
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background: url("assets/img/foto-video.png") center / contain no-repeat;
+    background-color:#ffffff ;
+    margin-right: 5px;
+}
+.pensamento__video::before {
+    content: "";
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin-right: 5px;
+    background: url("assets/img/video-direto.png") center / contain no-repeat;
+}
+
