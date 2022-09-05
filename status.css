@@ -1,0 +1,114 @@
+.status {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: 60px 200px;
+    background-color:#ffffff;
+    row-gap: 5px;
+    border-radius: 15px;
+    padding: 1rem;
+    border:2px solid#e5e5e5;
+}
+
+.status__conteudo {
+    display: flex;
+    background-color:#ffffff;
+    grid-column: span 3;
+    justify-content: space-evenly;
+    overflow:hidden;
+    flex-wrap: wrap;
+}
+
+.status__botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #807885;
+    font-weight:600;
+    border-bottom: 1px solid#e5e5e5;
+}
+
+.status__botao:hover {
+    border-radius: 5px;
+    background-color: #e5e6eb;
+    cursor:pointer;
+}
+
+.status__ativo {
+    color:#2c73cf;
+    border-bottom: 3px solid #2c73cf;
+}
+
+.historia {
+    width: 112px;
+    height: 200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    position: relative;
+    padding-bottom: 1rem;
+    border-radius:15px;
+    overflow: hidden;
+}
+
+.historia:hover {
+    cursor: pointer;
+    background-color:  #e5e6eb;
+}
+
+.status__perfil {
+    background: url(assets/img/perfil.jpg) center / cover no-repeat;
+    width: 112px;
+    height: 140px;
+}
+
+.status__perfil:hover {
+    width: 113px;
+    height: 143px;
+}
+
+.status__mais {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background-color: #1876f2;
+    position: absolute;
+    bottom: 37px;
+    right: 35px;
+}
+
+.status__img{
+    background: url("assets/img/zenitsu-agatsuma__status.png") center / cover no-repeat;
+    width: 112px;
+    height: 200px;
+    border-radius:25px;
+    background-color: #303231;
+    position: relative;
+}
+
+.status__nome {
+    display:flex;
+    align-items: flex-end;
+    color:white;
+    text-align: center;
+}
+
+
+
+.foto__status {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    border:5px solid blue
+}
