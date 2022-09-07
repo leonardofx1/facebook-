@@ -45,6 +45,13 @@ body {
     font-size: 1rem;
 }
 
+.lupa__pesquisa {
+    height: 20px;
+    width:22px;
+    margin-left: .5rem;
+    display: none;
+}
+
 .nav__header {
     width: 60%;
     height: 56px;
@@ -53,6 +60,32 @@ body {
     padding:.8rem;
 }
 
+.nav__menu {
+    display: none;
+   
+}
+
+@media screen and (max-width: 700px){
+    .nav__header {
+        display: none;
+    }
+    .nav__menu {
+        display: inline-block;
+
+    }
+    .nav__link__menu {
+        width: 40px;
+    height: 100%;
+    border-radius: 50%;
+    padding:5px;
+    text-align: center;
+    background-color: #e5e6eb;
+    }
+
+   .texto {
+    font-size: 1.3rem;
+   }
+}
 
 .link__ativo::after{
     content:'';
@@ -88,10 +121,10 @@ body {
 }
 
 
-.link__menu {
+.link__menu{
     width: 40px;
     height: 100%;
-    border-radius: 100px;
+    border-radius: 50%;
     padding:5px;
     text-align: center;
     background-color: #e5e6eb;
@@ -108,3 +141,21 @@ body {
     width: 40px;
     height: 40px;
 }
+ @media screen and (max-width: 1099px){
+    
+    #pesquisa {
+        display: none;
+    }
+
+    .nav__header {
+        width: 50%;
+    }
+
+    
+    .lupa__pesquisa {
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+        margin: 1rem; 
+    } 
+ }

@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cabecalho.css">
-    <link rel="stylesheet" href="aside.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="contatos.css">
-    <link rel="stylesheet" href="status.css">
-    <link rel="stylesheet" href="pensamento.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/aside.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/contatos.css">
+    <link rel="stylesheet" href="assets/css/status.css">
+    <link rel="stylesheet" href="assets/css/pensamento.css">
     <title>Facebook Home</title>
 </head>
 
@@ -19,20 +19,24 @@
         <div class="logo__form">
             <img src="assets/img/fb_icon_325x325.png " class="header__icons" alt="">
             <form action="#" method="get">
+                <img src="assets/img/lupa-contatos.png" class="lupa__pesquisa" alt="lupa-pesquisa">
                 <input type="text" name="pesquisa" id="pesquisa" placeholder="Pesquisa no Facebook">
             </form>
+            <a href="#" class="nav__link__menu"><img class="header__icon nav__menu" src="assets/img/menu-hanburguer.png"
+                    alt="image menu"></a>
         </div>
         <nav class="nav__header">
             <a href="#" class="nav__image__link link__ativo"><img class="header__icons nav__header__ativo "
                     src="assets/img/home.png" alt="home logo"></a>
             <a class="nav__image__link" href="#"><img class="header__icons" src="assets/img/watch.png" alt="video"></a>
-            <a class="nav__image__link" href=""><img class="header__icons" src="assets/img/marketplace.png"
+            <a class="nav__image__link" href=""><img class="header__icons" src="assets/img/marketplace-ori.png"
                     alt="marketplace image"></a>
             <a class="nav__image__link" href=""><img class="header__icons" src="assets/img/grupos.png" alt="grupos"></a>
             <a class="nav__image__link" href="#"><img class="header__icons" src="assets/img/gaming.png" alt="jogos"></a>
         </nav>
         <div class="menu">
-            <a href="#" class="link__menu"><img class="header__icon" src="assets/img/menu.jpg" alt="image menu"></a>
+            <a href="#" class="link__menu"><img class="header__icon" src="assets/img/menu-hanburguer.png"
+                    alt="image menu"></a>
             <a href="#" class="link__menu"><img class="header__icon" src=" assets/img/messenger-icon-2880-thumb.png"
                     alt="image messenger"></a>
             <a href="#" class="link__menu"><img src="assets/img/sininho.png" alt="image sininho"
@@ -40,31 +44,7 @@
             <a href="#"> <img class="foto__perfil" src="assets/img/perfil.jpg" alt=""></a>
         </div>
     </header>
-    <aside class="atalhos">
-        <ul>
-            <li><a href="#" class=" aside__link"><img class="aside__logo foto" src="assets/img/perfil.jpg"
-                        alt="foto perfil">Lorem ipsum dolor sit amet</a></li>
-            <li> <a href="#" class="aside__link"><img class="aside__logo" src="assets/img/amigos-aside.png"
-                        alt="eventos">Amigos</a></li>
-            <li> <a href="#" class="aside__link">
-                    <img class="aside__logo" src="assets/img/grupos-aside.png" alt="img grupos">Grupos</a></li>
-            <li> <a href="#" class="aside__link"><img class="aside__logo" src="assets/img/marketplace-ori.png"
-                        alt="marketplace">Marketplace</a></li>
-            <li> <a href="#" class="aside__link"><img class="aside__logo" src="assets/img/watch-aside.png"
-                        alt="watch">Watch</a></li>
-            <li> <a href="#" class="aside__link"><img class="aside__logo" src="assets/img/guardados-aside.png"
-                        alt="guardados">Guardados</a></li>
-            <li> <a href="#" class="aside__link"><img class="aside__logo" src="assets/img/paginas.png"
-                        alt="eventos">Paginas</a></li>
-            <li> <a href="#" class="aside__link"><img class="aside__logo" src="assets/img/eventos-aside.png"
-                        alt="eventos">Eventos</a></li>
-            <li> <a href="#" class="aside__link"><img class="aside__logo" src="assets/img/memorias-aside.png"
-                        alt="eventos">Memorias</a></li>
-            <li> <a class="aside__link ver__mais" href="#"> <img class="aside__logo__seta"
-                        src="assets/img/ver-mais-aside.png" alt="seta para baixo"> ver mais</a></li>
-        </ul>
 
-    </aside>
     <main class="conteudo__principal">
         <article class="status">
             <p class="status__botao status__ativo">Historias</p>
@@ -115,7 +95,7 @@
 
         <section class="posts">
             <article class="post__corpo">
-                <section class="post__cabecalho">
+                <div class="post__cabecalho">
                     <a href="#" class="post__link"><img class="post__perfil" src="assets/img/-brazil-post.jpg"
                             alt="img__perfil">
                         <h1>antonio da silva</h1>
@@ -123,8 +103,45 @@
                             alt="mundo-publico">
                     </a>
                     <span class="post__pontos">...</span>
-                </section>
-
+                </div>
+                <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempora libero
+                    commodi,
+                    rerum ipsam molestiae c</div>
+                <div class="conteudo"><img src="assets/img/meu-post.jpg" alt="Brasil"></div>
+                <div class="interacao__contagem"><a href="#">400 comentários</a> <a href="#"> 3,1 mil partilhas</a>
+                </div>
+                <div class="interacao"><button>Gosto</button> <button>Comentar</button> <button>Partilhar</button>
+                </div>
+            </article>
+            <article class="post__corpo">
+                <div class="post__cabecalho">
+                    <a href="#" class="post__link"><img class="post__perfil" src="assets/img/-brazil-post.jpg"
+                            alt="img__perfil">
+                        <h1>antonio da silva</h1>
+                        <span class="data__publicacao">1h.</span> <img class="icon__mundo" src="assets/img/mundo.jpg"
+                            alt="mundo-publico">
+                    </a>
+                    <span class="post__pontos">...</span>
+                </div>
+                <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempora libero
+                    commodi,
+                    rerum ipsam molestiae c</div>
+                <div class="conteudo"><img src="assets/img/frase-motivacional.jpg" alt="Brasil"></div>
+                <div class="interacao__contagem"><a href="#">400 comentários</a> <a href="#"> 3,1 mil partilhas</a>
+                </div>
+                <div class="interacao"><button>Gosto</button> <button>Comentar</button> <button>Partilhar</button>
+                </div>
+            </article>
+            <article class="post__corpo">
+                <div class="post__cabecalho">
+                    <a href="#" class="post__link"><img class="post__perfil" src="assets/img/-brazil-post.jpg"
+                            alt="img__perfil">
+                        <h1>antonio da silva</h1>
+                        <span class="data__publicacao">1h.</span> <img class="icon__mundo" src="assets/img/mundo.jpg"
+                            alt="mundo-publico">
+                    </a>
+                    <span class="post__pontos">...</span>
+                </div>
                 <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempora libero
                     commodi,
                     rerum ipsam molestiae c</div>
@@ -136,6 +153,31 @@
             </article>
         </section>
     </main>
+    <aside class="atalhos">
+        <ul>
+            <li><a href="#" class=" aside__link"><img class="aside__logo foto" src="assets/img/perfil.jpg"
+                        alt="foto perfil">Lorem ipsum dolor sit amet</a></li>
+            <li> <a href="#" class="aside__link"><img class="aside__logo" src="assets/img/amigos-aside.png"
+                        alt="eventos">Amigos</a></li>
+            <li> <a href="#" class="aside__link">
+                    <img class="aside__logo" src="assets/img/grupos-aside.png" alt="img grupos">Grupos</a></li>
+            <li> <a href="#" class="aside__link"><img class="aside__logo" src="assets/img/marketplace-ori.png"
+                        alt="marketplace">Marketplace</a></li>
+            <li> <a href="#" class="aside__link"><img class="aside__logo" src="assets/img/watch-aside.png"
+                        alt="watch">Watch</a></li>
+            <li> <a href="#" class="aside__link"><img class="aside__logo" src="assets/img/guardados-aside.png"
+                        alt="guardados">Guardados</a></li>
+            <li> <a href="#" class="aside__link"><img class="aside__logo" src="assets/img/paginas.png"
+                        alt="eventos">Paginas</a></li>
+            <li> <a href="#" class="aside__link"><img class="aside__logo" src="assets/img/eventos-aside.png"
+                        alt="eventos">Eventos</a></li>
+            <li> <a href="#" class="aside__link"><img class="aside__logo" src="assets/img/memorias-aside.png"
+                        alt="eventos">Memorias</a></li>
+            <li> <a class="aside__link ver__mais" href="#"> <img class="aside__logo__seta"
+                        src="assets/img/ver-mais-aside.png" alt="seta para baixo"> ver mais</a></li>
+        </ul>
+
+    </aside>
     <article class="contatos">
         <section class="contatos__amigos">
             <div class="contatos__lista">Contatos
@@ -161,6 +203,7 @@
             </div>
         </section>
     </article>
+
 </body>
 
 </html>

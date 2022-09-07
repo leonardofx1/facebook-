@@ -9,6 +9,7 @@
     position: fixed;
     top: 60px;
     left: 0;
+    padding:.5rem;
 }
 
 .foto {
@@ -17,7 +18,7 @@
 
 .aside__link {
     width: 100%;
-    height: 52px;
+    height: 50px;
     display: flex;
     align-items: center;
     font-weight: 700;
@@ -50,4 +51,10 @@
 
 .ver__mais {
     text-align: center;
+}
+
+@media screen and (max-width: 1099px) {
+.atalhos {
+    display: none;
+}
 }

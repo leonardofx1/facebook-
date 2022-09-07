@@ -119,3 +119,9 @@
     height: 25px;
     margin-right: 5px;
 }
+
+@media screen and (max-width:1124px) {
+    .contatos {
+        display: none;
+    }
+}

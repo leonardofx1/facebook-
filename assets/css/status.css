@@ -58,7 +58,7 @@
 }
 
 .status__perfil {
-    background: url(assets/img/perfil.jpg) center / cover no-repeat;
+    background: url(/assets/img/perfil.jpg) center / cover no-repeat;
     width: 112px;
     height: 140px;
 }
@@ -86,12 +86,18 @@
 }
 
 .status__img{
-    background: url("assets/img/zenitsu-agatsuma__status.png") center / cover no-repeat;
+    background: url("/assets/img/zenitsu-agatsuma__status.png") center / cover no-repeat;
     width: 112px;
     height: 200px;
     border-radius:25px;
     background-color: #303231;
     position: relative;
+}
+
+.status__img:hover {
+    width:114px;
+    height:202px;
+    cursor:pointer;
 }
 
 .status__nome {

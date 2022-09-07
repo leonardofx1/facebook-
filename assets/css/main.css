@@ -3,11 +3,13 @@ body {
     font-family: "open-sans" sans-serif;
 }
 
-main {
+.conteudo__principal {
     width: 593px;
     height: calc(100vh - 60px);
     margin: 60px auto 0 auto;
     z-index: 1;
+    min-width: none;
+    padding: 1rem;
 }
 
 .post__cabecalho {
