@@ -56,7 +56,7 @@
     height: 40px;
     width: 40px;
     display: inline-block;
-    background: url("assets/img/foto-video.png") center / contain no-repeat;
+    background: url("../img/foto-video.png") center / contain no-repeat;
     background-color:#ffffff ;
     margin-right: 5px;
 }
@@ -66,5 +66,5 @@
     width: 40px;
     display: inline-block;
     margin-right: 5px;
-    background: url("assets/img/video-direto.png") center / contain no-repeat;
+    background: url("../img/video-direto.png") center / contain no-repeat;
 }
